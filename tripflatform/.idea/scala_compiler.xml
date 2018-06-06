@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="sqoop_pg">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\B_Scala\IdeaProjects\tripflatform\collector\sqoop\sqoop_pg\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="trip_spark">
+      <parameters>
+        <parameter value="-make:transitive" />
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\B_Scala\IdeaProjects\tripflatform\datawarehouse\spark\trip_spark\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 3" modules="flumemock">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\B_Scala\IdeaProjects\tripflatform\collector\flume\flumemock\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 4" modules="public_sentiment">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\B_Scala\IdeaProjects\tripflatform\stream\public_sentiment\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+  </component>
+</project>

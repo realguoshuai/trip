@@ -1,0 +1,4 @@
+#需求
+agent接收avro流数据,把数据一份发送到hdfs上储存,
+一份放入kafka进行流计算
+//flume-ng ** ---> kafka(创建topic ,)   flume 客户端
